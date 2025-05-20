@@ -1,14 +1,6 @@
 
 **"Installation and Configuration Guide for MapStore and GeoServer Using Apache Tomcat (v9)"**
 
----
-
-### 📄 **Preparation/Understanding Document**
-
-This document outlines the prerequisites, installation steps, and configuration procedures for setting up MapStore and GeoServer using Apache Tomcat 9 on a local system.
-
----
-
 ####  **1. Prerequisites**
 
 * Basic understanding of Java web applications.
@@ -36,6 +28,10 @@ This document outlines the prerequisites, installation steps, and configuration 
 
      * Set a **connector port** (e.g., `8080`).
      * Create a **username** and **password** for access.
+     * 
+    ![image](https://github.com/user-attachments/assets/afd7254c-ed59-4e71-abf0-18c080220c9e)
+
+       
 
 2. **Access Installation Directory**
 
@@ -70,27 +66,13 @@ This document outlines the prerequisites, installation steps, and configuration 
 
    * Use the **username/password** created during the Tomcat setup to log into MapStore and GeoServer.
 
----
-
-### 🧾 **README File Format**
-
-Below is a suitable README format for including in your repository or documentation folder:
-
----
-
-```markdown
+```
 # MapStore and GeoServer Installation Guide using Apache Tomcat 9
 
-##  Prerequisites
-- Windows OS (tested)
-- Java installed
-- Internet connection
-- Admin rights
-
 ##  Required Software
-- [Apache Tomcat v9](https://tomcat.apache.org)
-- MapStore WAR file (from official site)
-- GeoServer WAR file (from official site)
+- [Apache Tomcat v9]([https://tomcat.apache.org](https://tomcat.apache.org/download-90.cgi))
+- MapStore WAR file ([from official site](https://github.com/geosolutions-it/MapStore2/releases/tag/v2024.02.02))
+- GeoServer WAR file ([from official site](https://geoserver.org/release/stable/))
 
 ## 🛠 Setup Steps
 
@@ -129,5 +111,14 @@ C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps
 - Wait a few seconds after deployment for auto-extraction.
 - Ensure no port conflict on your system.
 ```
+
+
+##MapStore 
+
+![image](https://github.com/user-attachments/assets/3cebf472-ad1a-453a-a5b7-079632b867f8)
+
+#GeoServer
+
+![image](https://github.com/user-attachments/assets/e9e3aa70-a4a3-4962-a7cc-4fc6cf85d912)
 
 ---
