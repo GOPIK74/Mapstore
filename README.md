@@ -13,8 +13,8 @@
 | Component              | Description                                | Link                                                   |
 | ---------------------- | ------------------------------------------ | ------------------------------------------------------ |
 | **Apache Tomcat (v9)** | Java-based web server to host `.war` files | [https://tomcat.apache.org](https://tomcat.apache.org) |
-| **MapStore**           | Web-based geospatial viewer                | \[Download WAR file from MapStore website]             |
-| **GeoServer**          | Web map server for spatial data            | \[Download WAR file from GeoServer website]            |
+| **MapStore**           | Web-based geospatial viewer                | \[Download WAR file from MapStore website (https://github.com/geosolutions-it/MapStore2/releases/tag/v2024.02.02)]             |
+| **GeoServer**          | Web map server for spatial data            | \[Download WAR file from GeoServer website (https://geoserver.org/release/stable/)]            |
 
 
 
